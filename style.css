@@ -1,0 +1,13 @@
+body{
+	background-color: hsl(222, 26%, 31%);
+	font-family: 'League Spartan', sans-serif;
+	font-size: 32px;
+}
+
+/*Desktop*/
+@media (min-width: 375px){
+}
+
+/*Mobile*/
+@media (max-width: 375px){
+}
