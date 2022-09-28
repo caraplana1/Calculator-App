@@ -4,8 +4,34 @@ body{
 	font-size: 32px;
 }
 
+#resultDisplay p{
+	text-align: end;
+}
+
 /*Desktop*/
 @media (min-width: 375px){
+	main{
+		margin: 10% 30%;
+		width: 40%;
+	}
+
+	#resultDisplay{
+		background-color: hsl(224, 36%, 15%);
+	}
+
+	#calculator{
+		background-color: hsl(223, 31%, 20%);
+	}
+
+	#numbers{
+		display: flex;
+		justify-content: space-between;
+	}
+
+	#resultButton {
+		display: flex;
+		justify-content: space-between;
+	}
 }
 
 /*Mobile*/
